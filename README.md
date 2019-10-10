@@ -3,8 +3,6 @@
 
 *Node.js project/package root path detection.*
 
-![Screenshot](https://dvfr2lc5dhzsq.cloudfront.net/items/1x2l3v3p3f1o3R1b203H/Screen%20Shot%202019-03-07%20at%2004.07.33.png?X-CloudApp-Visitor-Id=c6ecab27bd8bc8eb8c40bf7dc50cef57)
-
 
 ## Introduction
 
