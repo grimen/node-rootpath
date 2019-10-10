@@ -1,0 +1,43 @@
+{
+    "name": "node-rootpath",
+    "version": "0.1.0",
+    "description": "Node.js project/package root path detection.",
+    "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grimen/node-rootpath.git"
+    },
+    "bugs": {
+        "url": "https://github.com/grimen/node-rootpath/issues"
+    },
+    "homepage": "https://github.com/grimen/node-rootpath#readme",
+    "author": "Jonas Grimfelt <jonas@markable.ai> (https://github.com/grimen)",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx jest",
+        "test-ci": "npx jest --runInBand --forceExit --detectOpenHandles --coverage",
+        "test-dev": "npx jest --watch",
+        "validate": "npx eslint \"**/*.js\"",
+        "release": "./bin/release",
+        "coverage": "npx jest --coverage",
+        "coverage-codecov": "npx codecov"
+    },
+    "dependencies": {
+        "@grimen/mybad": "^0.2.0",
+        "chalk": "^2.4.2",
+        "debug": "^4.1.1"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.2",
+        "codecov": "^3.5.0",
+        "eslint": "^6.1.0",
+        "jest": "^24.8.0"
+    },
+    "jest": {
+        "bail": true,
+        "verbose": true,
+        "testRegex": "test_.*\\.js",
+        "testEnvironment": "node"
+    }
+}
