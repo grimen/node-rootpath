@@ -29,7 +29,7 @@ async function detect (entryPath = undefined, rootFileNamePattern = undefined) {
 
     try {
         fileStat = await fs.lstat(entryPath)
-    } catch {}
+    } catch (error) {}
 
     const isDirectory = Boolean(fileStat && fileStat.isDirectory())
 
