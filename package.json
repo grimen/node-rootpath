@@ -1,5 +1,5 @@
 {
-    "name": "node-rootpath",
+    "name": "@grimen/rootpath",
     "version": "0.1.1",
     "description": "Node.js project/package root path detection.",
     "keywords": [],
