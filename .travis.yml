@@ -1,5 +1,6 @@
 language: node_js
 node_js:
+    - '8'
     - '10'
     - '12'
 cache:
@@ -8,5 +9,8 @@ cache:
         - 'node_modules'
 install: make install-ci
 script: make test-ci
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
 notifications:
     email: false
+
